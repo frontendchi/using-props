@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-function Button ({text, variant = 'default'}) {
+function Button ({children, text, variant = 'default'}) {
 
     return (
         <button className={classNames({
@@ -10,7 +10,7 @@ function Button ({text, variant = 'default'}) {
                 "bg-gray-800" : variant === 'danger',
                 "bg-yellow-400" : variant === 'success'
         })}>
-            {text}
+            {children}
         </button>
     );
     
