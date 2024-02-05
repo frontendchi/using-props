@@ -1,4 +1,4 @@
-
+import './tailwind.css'
 import Button from './components/Button'
 
 function App() {
