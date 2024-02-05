@@ -1,10 +1,10 @@
-import logo from './logo.svg'
+
+import Button from './components/Button'
 
 function App() {
   return (
     <div className="App">
-      <img src="logo192.png" alt="logo1"></img>
-      <img src={logo} alt="logo1"></img>
+      <Button text="yazdır butonu"/>
     </div>
   );
 }
